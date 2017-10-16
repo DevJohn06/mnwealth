@@ -1,0 +1,90 @@
+.s-main-container { 
+
+    .s-main-wrapper { 
+        padding: 0 10px 10px 10px;
+        background-color: #586D80;
+
+        .s-header {
+            display: flex;
+            padding: 10px 0px;
+            justify-content: space-between;
+
+            .btn-wrapper  {
+
+                button {
+                    width: 100px;
+                    height: 30px;
+                    border: solid 1px #007B00;
+                    background-color: #2BAC65;
+                    color: #FFF;
+                }
+
+                button:hover {
+                    background-color: #128241;
+                    cursor: pointer;
+                }
+
+            }
+
+            .search-wrapper {
+                background-color: #FFF;
+                display: flex;
+                align-items: center;
+                color: #373536;
+
+                i {
+                    padding-left: 5px;
+                    padding-right: 5px;
+                }
+
+                input {
+                    padding: 5px;
+                    border: none;
+                }
+            }
+        }
+
+        .s-table {
+
+            table {
+                width: 100%;
+                color: #373536;
+                border-collapse: collapse;
+                background-color: #FFF;
+
+                tbody tr:hover {
+                    background-color: #D8D6D6;
+                }
+
+                tr th {
+                    text-align: left;
+                    font-size: 18px;
+                    border-bottom: solid 1px #373536;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                    padding-left: 5px;
+                }
+
+                tr td {
+                    border-bottom: solid 1px #373536;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                    padding-left: 5px;
+
+                    button {
+                        background-color: #2BAC65;
+                        border: solid 1px #007B00;
+                        border-radius: 3px;
+                        width: 70px;
+                        color: #FFF;
+                    }
+
+                    button:hover {
+                        background-color: #128241;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}

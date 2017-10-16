@@ -1,0 +1,100 @@
+.p-main-container {
+    
+    .p-main-wrapper {
+
+        .p-header {
+
+            .p-header-label {
+                height: 50px;
+                background-color: #27AE61;
+                display: flex;
+                align-items: center;
+                padding-left: 10px;
+                font-size: 18px;
+                color: #FFF;
+                font-weight: 700;
+            }
+        }
+
+        .p-panel {
+            padding: 10px;
+            background-color: #586D80;
+        
+            .panel-wrapper {
+                display: flex; 
+                background-color: #FFF;
+                color: #373536;
+                padding: 10px;
+
+                .panel-column1 {
+                    margin-right: 10px;
+                    display: flex;
+                    flex-direction: column;
+
+                    .p-content {
+                        width: 200px;
+                        margin-bottom: 5px;
+
+                        .p-content-hdr {
+                            background-color: #2BAC65; 
+                            color: #FFF;
+                            padding: 2px 0px 4px 4px;
+                        }
+                        
+                        .p-cbox {
+                            
+                            div {
+                                padding: 5px 0px 0px 5px;
+                            }
+                        }
+                    }
+                    
+                }
+
+                .panel-column2 {
+                    margin-right: 40px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+
+                    .p-content {
+                        width: 200px;
+
+                        .p-content-hdr {
+                            background-color: #2BAC65; 
+                            padding: 2px 0px 4px 4px;
+                            color: #FFF;
+                        }
+                        
+                        .p-cbox {
+                            
+                            div {
+                                padding: 5px 0px 0px 5px;
+                            }
+                        }
+                    }
+
+                    .p-action {
+                        text-align: right;
+
+                        div {
+
+                            button {
+                                width: 100px;
+                                height: 30px;
+                                border: solid 1px #007B00;
+                                background-color: #2BAC65;
+                                color: #FFF;
+                            }
+            
+                            button:hover {
+                                background-color: #128241;
+                                cursor: pointer;
+                            }
+                        }
+                    }
+                }                
+            }
+        }
+    }
+}

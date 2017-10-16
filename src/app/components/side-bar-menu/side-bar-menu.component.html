@@ -1,0 +1,30 @@
+<div class="sbm-main-container">
+    <div class="sbm-main-wrapper"> 
+        <div class="sbm-user-info-wrapper">
+            <div class="sbm-user-info">
+                <div class="sbm-img-container">
+
+                </div>
+                <div class="sbm-info">
+                    <div class="sbm-name">
+                        <span>John Doe</span>
+                    </div>
+                    <div class="sbm-permission">
+                        <span>Administrator</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <ng-container  *ngFor="let item of navItems; let i = index;">
+            <div 
+                class="sbm-item" 
+                (click)="onItemClick(i)"
+                [ngClass]="{ selected : item.selected }"> 
+                <span class="menu-icon">
+                    <i class="material-icons">{{ item.icon }}</i>
+                </span>
+                <span class="menu-name">{{ item.name }}</span> 
+            </div>
+        </ng-container>
+    </div>
+</div>

@@ -1,0 +1,98 @@
+.r-main-container {
+    
+    .r-main-wrapper {
+
+        .r-header {
+
+            .r-header-label {
+                height: 50px;
+                background-color: #27AE61;
+                display: flex;
+                align-items: center;
+                padding-left: 10px;
+                font-size: 18px;
+                color: #FFF;
+                font-weight: 700;
+            }
+        }
+
+        .r-table {
+            padding: 10px;
+            background-color: #586D80;
+
+            .tbl-action-hdr {
+                margin-bottom: 10px;
+                
+                .btn-wrapper  {
+                    
+                    button {
+                        width: 100px;
+                        height: 30px;
+                        border: solid 1px #007B00;
+                        background-color: #2BAC65;
+                        color: #FFF;
+                    }
+    
+                    button:hover {
+                        background-color: #128241;
+                        cursor: pointer;
+                    }
+    
+                }
+            }
+
+            table {
+                width: 100%;
+                color: #373536;
+                border-collapse: collapse;
+                background-color: #FFF;
+
+                tbody tr:hover {
+                    background-color: #D8D6D6;
+                }
+
+                tr th {
+                    text-align: left;
+                    font-size: 18px;
+                    border-bottom: solid 1px #373536;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                    padding-left: 5px;
+                }
+
+                tr td {
+                    border-bottom: solid 1px #373536;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                    padding-left: 5px;
+
+                    .btn-delete {
+                        background-color: #E84C3D;
+                        border: solid 1px #8C0C00;
+                        border-radius: 3px;
+                        width: 70px;
+                        color: #FFF;
+                    }
+
+                    .btn-delete:hover {
+                        background-color: #FC7367;
+                        cursor: pointer;
+                    }
+
+                    .btn-edit {
+                        background-color: #A58400;
+                        border: solid 1px #876A01;
+                        border-radius: 3px;
+                        width: 70px;
+                        color: #FFF;
+                    }
+
+                    .btn-edit:hover {
+                        background-color: #C19D0D;
+                        cursor: pointer;
+                    }                    
+                }
+            } 
+        }
+    }
+}

@@ -1,0 +1,86 @@
+.rs-main-container { 
+    
+    .rs-main-wrapper {
+
+        .rs-header {
+
+            .rs-header-label {
+                height: 50px;
+                background-color: #27AE61;
+                display: flex;
+                align-items: center;
+                padding-left: 10px;
+                font-size: 18px;
+                color: #FFF;
+                font-weight: 700;
+            }
+        }
+
+        .rs-table {
+            padding: 10px;
+            background-color: #586D80;
+
+            table {
+                width: 100%;
+                color: #373536;
+                border-collapse: collapse;
+                background-color: #FFF;
+
+                tbody tr:hover {
+                    background-color: #D8D6D6;
+                }
+
+                tr th {
+                    text-align: left;
+                    font-size: 18px;
+                    border-bottom: solid 1px #373536;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                    padding-left: 5px;
+                }
+
+                tr td {
+                    border-bottom: solid 1px #373536;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                    padding-left: 5px;
+
+                    button {
+                        background-color: #2BAC65;
+                        border: solid 1px #007B00;
+                        border-radius: 3px;
+                        width: 70px;
+                        color: #FFF;
+                    }
+
+                    button:hover {
+                        background-color: #128241;
+                        cursor: pointer;
+                    }
+                }
+            }
+
+            .rs-footer { 
+                margin-top: 10px;
+
+                .footer-content {   
+                    text-align: right;
+                    padding: 5px 0px 5px 5px;
+
+                    span {
+                        background-color: #2BAC65;
+                        width: 70px;
+                        text-align: center;
+                        color: #FFF;
+                        padding: 5px;
+                    }
+
+                    span:hover {
+                        background-color: #128241;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}

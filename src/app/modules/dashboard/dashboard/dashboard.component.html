@@ -1,0 +1,40 @@
+<div class="db-main-container">
+    <div class="db-main-wrapper">
+        <app-side-bar-menu
+            [navItems]="navItems"
+            (headerLabel)="onMenuClicked($event)">
+        </app-side-bar-menu>
+        <div class="header-container">
+            <div class="header-wrapper">
+                <div class="header-label">
+                    <span>
+                        {{ headerLabel }}
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="page-container">
+            <div class="page-wrapper">
+                <div class="page-dashboard" *ngIf="headerLabel == 'Dashboard'">
+                    <app-recent-sign-ups></app-recent-sign-ups>
+                </div>
+                <div class="page-roles-permissions" *ngIf="headerLabel == 'Roles and Permissions'">
+                    <div>
+                        <div class="page-roles">
+                            <app-roles></app-roles>
+                        </div>
+                        <div class="page-permissions">
+                            <app-permissions></app-permissions>
+                        </div>
+                    </div>
+                </div>
+                <div class="page-staff" *ngIf="headerLabel == 'Staff'">
+                    <app-staff></app-staff>
+                </div>
+                <div *ngIf="headerLabel == 'Activities'">
+                    <app-activities></app-activities>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
